@@ -1,0 +1,40 @@
+{
+  "name": "graphql-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaos93/graphql-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phaos93/graphql-practice/issues"
+  },
+  "homepage": "https://github.com/phaos93/graphql-practice#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/node": "^20.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "graphql": "^15.8.0",
+    "graphql-scalars": "^1.22.4",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.17",
+    "typeorm-extension": "^3.1.0"
+  }
+}
